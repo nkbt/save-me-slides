@@ -1,0 +1,19 @@
+{
+  "name": "save-me-slides",
+  "version": "1.0.0",
+  "description": "Scroll through my slide deck and save each slide as an image",
+  "main": "index.js",
+  "bin": {
+    "save-me-slides": "./bin.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "browser": "node ./browser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikita Butenko <nik@butenko.me>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
+}
